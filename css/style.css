@@ -1,46 +1,25 @@
 /* Styles for Mobile Site */
 body {
-    font-family: Danfo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #FAA300;
     color: #0101fa;
 }
-h1 {
-    font-family: 
-}
 /* Header & Hero */
-header {
-    text-align: center; }
+
 /* Projects */
 
 /* Reviews */
 
 /* Footer */
-#hero ,footer{
-    text-align: center;
-    color: #FFFFFF;
-    background-color:#FAA300 ;
-    padding: 10px;
-    border: 2px solid #ed4032;
-    border-radius: 20px;
-}
+
 
 /* Media state for Desktop site */
-@media (min-width: 1000px) 
 
     /* Header & Hero */
-    header {
-        text-align: center;}
 
     /* Projects */
 
     /* Reviews */
 
     /* Footer */
-    #hero ,footer{
-        text-align: center;
-        color: #FFFFFF;
-        background-color:#F0857E ;
-        padding: 10px;
-        border: 2px solid #ed4032;
-        border-radius: 20px;
-    }
+    
