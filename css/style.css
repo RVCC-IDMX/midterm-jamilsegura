@@ -14,11 +14,53 @@ body {
 
 
 /* Media state for Desktop site */
+@media screen and (min-width: 100rem) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    hr {
+        display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+}
     /* Header & Hero */
-
+    body {
+        font-family: Roboto;
+        background-color: #FAA300;
+        color: #0101fa;
+    }
+    h1 {
+        font-family: Roboto;
+        font-size:30pt;
+    }
+    header {
+        text-align: center;
+    }
+    #hero img {
+        width: 300px;
+        max-width: 100%;
+    }
     /* Projects */
-
+    #projects {
+        border: 2px solid #fa21bf;
+        border-radius: 20px;
+    }
+    #project img {
+        max-width: 100%;
+        width: 100px;
+    }
+    #project figure {
+        text-align: center;
+    }
     /* Reviews */
 
     /* Footer */
