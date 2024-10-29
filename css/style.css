@@ -56,7 +56,11 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-
+@container (width > 400px) and style(--responsive: true) {
+    h2 {
+      font-size: 1.5em;
+    }
+  }
 /* Footer */
 #hero ,footer{
     text-align: center;
@@ -129,7 +133,11 @@ header {
         text-align: center;
     }
     /* Reviews */
-
+    @container (width > 400px) and style(--responsive: true) {
+        h2 {
+          font-size: 1.5em;
+        }
+      }
     /* Footer */
     #hero ,footer{
         text-align: center;
